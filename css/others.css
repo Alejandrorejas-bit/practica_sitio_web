@@ -1,0 +1,208 @@
+/* Etiuqetas generales */
+nav{
+    text-align: right;
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color: #C9BDB0;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Index  min-height: 100vh;*/
+.uno {
+    background-image: url(../imagenes/fondo-index.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+}
+.one{
+    width: 200px;
+    border: 1;
+    border-color: beige;
+}
+.bot{
+    margin-top: 100px;
+}
+
+/*artista*/
+.dos{
+    background-color: #30241F;
+}
+.tabla{
+    text-align: center;
+    border-color: #30241F;
+}
+.colaboraciones{
+    width: 80%;
+    margin: auto;
+}
+
+/*fechas*/
+.tres{
+    background-color: #25201D ;
+}
+.fechas{
+    color: beige;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/*galeria*/
+.cuatro {
+    background-color: #202127;
+}
+.gal{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(210, 210, 173);
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.imagenes {
+    width: 80%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    border-spacing: 20px;
+}
+.imagenes tr {
+    height: 180px;
+}
+.imagenes td {
+    padding: 0;
+    height: 180px;
+}
+.imagenes img {
+    width: 100%;
+    height: 180px;
+    display: block;
+}
+.imagenes td[rowspan="2"] img {
+    height: 370px;
+}
+
+/*discografia*/
+.cinco{
+    background-color: #2d2723;
+}
+.alb{
+    text-align: left;
+}
+.disco{
+    margin: auto;
+}
+.album{
+    margin: 10px;
+    height: 300px;
+}
+
+/*entradas*/
+.seis{
+    background-image: url(../imagenes/fondo-entradas.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+}
+.enlbot{
+    background-color: #cd280e;
+    border-radius: 20px;
+    color: black;
+    margin-left: 60px;
+    padding-left: 100px ;
+    padding-right: 100px;
+    display: inline-block;
+}
+.pequeño{
+    text-align: center;
+    color: beige;
+    font-size: x-small;
+    margin-bottom: 20px;
+}
+
+/*contacto*/
+.siete{
+    background-color: #0b0f19;
+}
+.mensaje{
+    padding-left: 100px;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px;
+}
+.cont{
+    margin-top: 30px;
+}
+.linea{
+    border-left: 2px solid beige;
+    flex: 1;
+    padding-left: 20px;
+    height: 350px;
+    padding: 20px;
+}
+.bott{
+    border-radius: 10px;
+    background-color:#171513 ;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: beige;
+    padding: 10px;
+    border-style: none;            
+}
+.enviar {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.im-ul{
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.formulario{
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+/*etiquetas*/
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+}
+img{
+    border-radius: 10px;
+}
+table{
+    text-align: center;
+}
+td{
+    width: 50%;
+    padding: 20px;
+
+}
+h3, h5{
+    margin: 0;
+    color: #C9BDB0;
+    text-align: center;
+}
+button{
+    text-align: center;
+    padding: 20px;
+    background-color: black ;
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    border-radius: 10px;
+    border-style: none;
+}
+
